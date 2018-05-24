@@ -7,14 +7,17 @@ Dysk /dev/mapper/vg_servername-root: 53.4 GB, bajtów: 53435432960
 
 -----------------------------------------------------------------
 
-create snapshot and create_newroot
+create snapshot and create_newroot 
 -----------------------------------------------------------------
+previously disable all unused services 
+and processes - be careful not to disable the network, and connection. 
 ```
 lvcreate -s /dev/mapper/vg_servername-root -L 5G -n rootmigawka
 ```
 ```
 lvcreate -L 53435432960b -n newroot vg_servername
 ```
+
 ```
 partclone.ext4 -b -N -s  /dev/mapper/vg_servername-rootmigawka -o  /dev/mapper/vg_servername-newroot
 ```
