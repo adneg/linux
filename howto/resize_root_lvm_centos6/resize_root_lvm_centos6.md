@@ -1,7 +1,9 @@
 check size root in byte:
 ---------------------------------------------------------------
+```
 fdisk -l /dev/mapper/vg_servername-root
 Dysk /dev/mapper/vg_servername-root: 53.4 GB, bajtów: 53435432960
+```
 
 -----------------------------------------------------------------
 
