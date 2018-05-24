@@ -1,1 +1,1 @@
-# linux HOW_TO and SCRITPS
+# linux HOW_TO and SCRIPTS
