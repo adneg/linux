@@ -48,7 +48,7 @@ kernel /vmlinuz-2.6.32-696.20.1.el6.x86_64 ro root=/dev/mapper/vg_servername-new
 REBOOT
 ---------------------------------------------------------------
 
-change orginall root size:
+change orginal root size:
 ---------------------------------------------------------------
 ```
 lvremove -f /dev/vg_servername/rootmigawka
