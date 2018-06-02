@@ -3,8 +3,8 @@ proto udp
 script-security 2
 dev tap
 ca ca.crt
-cert 193.19.165.151.crt
-key 193.19.165.151.key
+cert cert.crt
+key key.key
 
 dh dh2048.pem
 ifconfig-pool-persist ipp.txt
