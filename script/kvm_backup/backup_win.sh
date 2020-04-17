@@ -8,7 +8,7 @@ LVP="win2k16"
 LVK="_snap"
 GUEST="win2k8-2"
 DAY=`date +%u`
-adresy_email=kamil@topsa.com.pl,mtasz@topsa.com.pl
+adresy_email=email_adres1@example.com,email_adres2@example.com
 firma="cbi-win TOPSA"
 
 
